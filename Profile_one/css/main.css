@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.job_title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.big_box {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    height: 100%;
+}
+
+.about-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description-text {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.img-by {
+    color: gray;
+}
+
+.img-by > a {
+    color: grey;
+}
+
+.box:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+}
+
+.text-grey {
+    color: rgb(86, 84, 84);
+}
+
+.icons > a {
+    text-decoration: none;
+}
+
+.icons > a > i {
+    font-size: 18px;
+    color: #000;
+}
+
+.icons > a:nth-child(2) > i {
+    margin: 0 10px;
+}
