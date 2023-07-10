@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid tomato;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.profile-pic > img {
+    width: 100%;
+    height: 100%;
+}
+
+.texts > h1 {
+    font-size: 60px;
+    margin: 25px 0;
+}
+
+.text-description {
+    font-size: 20px;
+    color: rgb(85, 84, 84);
+}
+
+.img-by {
+    font-style: italic;
+    color: gray;
+}
+
+.img-by > a {
+    color: gray;
+}
+
+.icons {
+    margin: 30px 0;
+}
+
+.icons > a {
+    text-decoration: none;
+    color: tomato;
+    font-size: 18px;
+}
+
+.icons > a:nth-child(2) {
+    margin: 0 20px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid gray;
+}
+
+button:nth-child(2) {
+    border: 1px solid gray;
+    color: #000;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: tomato;
+    color: #fff;
+    border: none;
+}
+
+.btns {
+    width:45%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
