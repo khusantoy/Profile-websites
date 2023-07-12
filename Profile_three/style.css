@@ -1,0 +1,165 @@
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(247, 245, 245);
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* about start  */
+
+.title_text {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(80, 78, 78);
+    margin-top:50px ;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+    margin: 20px 0  ;
+}
+
+.description_text {
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(80, 78, 78);
+}
+
+.about > div {
+    width: 70%;
+}
+
+.img-by {
+    font-size: 16px;
+    color: rgb(80, 78, 78);
+    margin-top: 40px;
+}
+
+.img-by > a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(80, 78, 78);
+    color: rgb(80, 78, 78);
+}
+
+/* about end  */
+
+/* cards start */
+
+.cards {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    width: 23%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:nth-child(1) {
+    border-bottom: 10px solid tomato;
+}
+
+.card:nth-child(2) {
+    border-bottom: 10px solid skyblue;
+}
+
+.card:nth-child(3) {
+    border-bottom: 10px solid dodgerblue;
+}
+
+.card:nth-child(4) {
+    border-bottom: 10px solid purple;
+}
+
+.little_container {
+    width: 80%;
+    margin: auto;
+}
+
+.little_container > img {
+    width: 60px;
+    margin-top: 30px;
+}
+
+.little_container > p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.little_container > a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+    color: rgb(80, 78, 78);
+    font-weight: 600;
+}
+
+/* cards end  */
+
+/* projects start  */
+
+.projects {
+    height: 220px;
+    background-color: dodgerblue;
+    margin-top: 50px;
+    padding: 5px 25px;
+}
+
+.projects > p {
+    font-size: 40px;
+    color: #fff;
+}
+
+.projects > button {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.projects > button:hover {
+    transform: scale(1.1);
+}
+/* projects end  */
+
+/* footer start */
+
+footer {
+    height: 80px;
+    background-color: rgb(38, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer > p > a {
+    color: dodgerblue;
+    text-transform: capitalize;
+}
+
+/* footer end */
